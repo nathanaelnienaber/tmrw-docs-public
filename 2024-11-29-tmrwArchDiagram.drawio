@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="1194" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,16 +41,37 @@
           <mxGeometry x="890" y="250" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="infraLayer" value="Infrastructure Layer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5d6ff;" parent="1" vertex="1">
-          <mxGeometry x="50" y="410" width="1100" height="150" as="geometry" />
+          <mxGeometry x="50" y="410" width="1000" height="550" as="geometry" />
         </mxCell>
         <mxCell id="distributedServers" value="Distributed Server Network" style="rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" parent="infraLayer" vertex="1">
-          <mxGeometry x="70" y="450" width="250" height="100" as="geometry" />
+          <mxGeometry x="70" y="450" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="scalability" value="Scalability &amp; Elasticity" style="rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" parent="infraLayer" vertex="1">
-          <mxGeometry x="350" y="450" width="250" height="100" as="geometry" />
+          <mxGeometry x="350" y="450" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dataFlow" value="Data Flow &amp; Interconnectivity" style="rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" parent="infraLayer" vertex="1">
-          <mxGeometry x="650" y="450" width="300" height="100" as="geometry" />
+          <mxGeometry x="650" y="450" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TKYElfM-atQ_MffcHc0V-1" value="&lt;strong style=&quot;background-color: initial;&quot;&gt;Conduit Networks’ Military-Grade Servers&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Edge-based compute and storage capabilities.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;High-security design for user trust.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Geographic distribution for latency minimization.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;align=left;" vertex="1" parent="1">
+          <mxGeometry x="139" y="1040" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TKYElfM-atQ_MffcHc0V-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="distributedServers" target="TKYElfM-atQ_MffcHc0V-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKYElfM-atQ_MffcHc0V-3" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Kubernetes orchestration for workload distribution.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Dynamic scaling of resources (compute/storage) per user demand.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;align=left;" vertex="1" parent="1">
+          <mxGeometry x="419" y="1040" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TKYElfM-atQ_MffcHc0V-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="scalability" target="TKYElfM-atQ_MffcHc0V-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKYElfM-atQ_MffcHc0V-5" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Secure data transfer across distributed servers.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Encryption in transit and at rest.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1040" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TKYElfM-atQ_MffcHc0V-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dataFlow" target="TKYElfM-atQ_MffcHc0V-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKYElfM-atQ_MffcHc0V-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.128;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TKYElfM-atQ_MffcHc0V-5" target="TKYElfM-atQ_MffcHc0V-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
