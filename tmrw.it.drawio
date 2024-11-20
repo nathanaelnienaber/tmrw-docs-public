@@ -25,9 +25,6 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-154" value="API/SDK Interface" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-136">
           <mxGeometry x="1577" y="176" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-568" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MIaoaSeqQotOdPiKlqNz-79" target="4QwCh5fFJnxKNANVuwcL-45">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-79" value="Calico" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1501" y="63" width="200" height="200" as="geometry">
             <mxRectangle x="790" y="90" width="140" height="30" as="alternateBounds" />
@@ -633,6 +630,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-570" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-171" target="4QwCh5fFJnxKNANVuwcL-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-568" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MIaoaSeqQotOdPiKlqNz-79" target="4QwCh5fFJnxKNANVuwcL-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
