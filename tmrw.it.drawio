@@ -397,7 +397,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-184" value="Conduit Network" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2044" y="827" width="1311" height="272" as="geometry" />
+          <mxGeometry x="678" y="1173" width="2717" height="272" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-492" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Heading&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-184">
           <mxGeometry x="38" y="90" width="180" height="80" as="geometry" />
@@ -562,7 +562,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-517" value="Observability" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="3437" y="-222" width="600" height="1324" as="geometry" />
+          <mxGeometry x="3437" y="-276" width="600" height="1721" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-529" value="Prometheus" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
           <mxGeometry x="212" y="697" width="200" height="200" as="geometry">
@@ -587,7 +587,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-536" value="Infrastructure&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-244" y="-278" width="3637" height="1414" as="geometry" />
+          <mxGeometry x="676" y="-278" width="2717" height="1414" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
