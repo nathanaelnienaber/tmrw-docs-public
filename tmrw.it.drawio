@@ -441,7 +441,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-517" value="Observability" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3437" y="-1587" width="600" height="3032" as="geometry" />
+          <mxGeometry x="3437" y="-1587" width="600" height="2721" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-529" value="Prometheus" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#C95304;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
           <mxGeometry x="192" y="1233" width="200" height="200" as="geometry">
@@ -466,7 +466,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-539" value="Velero" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
-          <mxGeometry x="192" y="2439" width="200" height="199" as="geometry">
+          <mxGeometry x="207" y="2303" width="200" height="199" as="geometry">
             <mxRectangle x="2000" y="-400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -736,8 +736,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-790" value="&lt;meta charset=&quot;utf-8&quot;&gt;Sends backups to remote storage systems." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-539" target="4QwCh5fFJnxKNANVuwcL-777">
-          <mxGeometry x="-0.6623" y="-8" relative="1" as="geometry">
-            <mxPoint as="offset" />
+          <mxGeometry x="-0.0237" y="-156" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-791" value="&lt;meta charset=&quot;utf-8&quot;&gt;Connects to external APIs or databases" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-26" target="4QwCh5fFJnxKNANVuwcL-777">
@@ -769,8 +769,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-797" value="&lt;meta charset=&quot;utf-8&quot;&gt;Monitors external APIs and dependencies." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#C95304;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-529" target="4QwCh5fFJnxKNANVuwcL-777">
-          <mxGeometry x="-0.1808" y="-30" relative="1" as="geometry">
-            <mxPoint as="offset" />
+          <mxGeometry x="-0.023" y="-214" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-799" value="&lt;meta charset=&quot;utf-8&quot;&gt;Mounts volumes to pods on local nodes." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-88" target="MIaoaSeqQotOdPiKlqNz-77">
