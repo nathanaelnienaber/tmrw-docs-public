@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="7103" dy="5234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6515" dy="4130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -471,7 +471,7 @@
           <mxGeometry x="1776.1399999999999" y="444.5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-136" value="User INterface" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="-2370" width="3840" height="1046" as="geometry" />
+          <mxGeometry x="-320" y="-1820" width="3840" height="496" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-151" value="User Interface&lt;div&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 8px; background-color: initial;&quot;&gt;Frontend&lt;/strong&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;: React (for user interface, dashboard, and real-time updates).&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 8px; background-color: initial;&quot;&gt;Backend&lt;/strong&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;: Node.js + Express (for APIs, server-side logic, and handling requests).&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;background-color: initial; font-size: 8px;&quot;&gt;Database&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-size: 8px;&quot;&gt;: MongoDB (for structured and unstructured data like user profiles, server usage, logs, etc.).&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;ul&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fillStyle=solid;align=center;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-136">
           <mxGeometry x="20" y="-14" width="240" height="240" as="geometry" />
