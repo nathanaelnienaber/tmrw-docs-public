@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="4757" dy="3317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5628" dy="3740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-22" value="GitLab" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="420" width="200" height="200" as="geometry">
+          <mxGeometry x="330" y="425" width="200" height="200" as="geometry">
             <mxRectangle x="790" y="90" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -84,13 +84,11 @@
             <mxPoint x="-5" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MIaoaSeqQotOdPiKlqNz-64" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="520" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MIaoaSeqQotOdPiKlqNz-64" target="MIaoaSeqQotOdPiKlqNz-69">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-64" value="Terraform" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="420" width="200" height="200" as="geometry">
+          <mxGeometry x="610" y="425" width="200" height="200" as="geometry">
             <mxRectangle x="790" y="90" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -401,7 +399,7 @@
           <mxGeometry x="890" y="1990" width="2385" height="200" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-134" value="Infrastructure" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="820" width="3328.5" height="960" as="geometry" />
+          <mxGeometry x="-60" y="820" width="3610" height="960" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-135" value="Platform" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="-180" width="2385" height="210" as="geometry" />
