@@ -540,7 +540,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-517" value="Observability" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="3494" y="-222" width="600" height="1324" as="geometry" />
+          <mxGeometry x="3423" y="-222" width="600" height="1324" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-515" value="Grafana" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
           <mxGeometry x="205" y="285" width="200" height="200" as="geometry" />
