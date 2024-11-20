@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="890" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2993" dy="2749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,9 +38,6 @@
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-29" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" parent="1" vertex="1">
           <mxGeometry x="600" y="-830" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-32" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="860" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-35" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;" parent="1" vertex="1">
           <mxGeometry x="670" y="-1050" width="50" height="50" as="geometry" />
