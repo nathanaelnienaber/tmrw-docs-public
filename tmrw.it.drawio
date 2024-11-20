@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="2133" dy="3297" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2229" dy="3347" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Components" style="" parent="0" />
@@ -73,6 +73,12 @@
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-48" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=k_proxy;hachureGap=4;align=center;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;rounded=0;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-44">
           <mxGeometry x="61.82999999999993" y="31.5" width="20.88" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-798" value="&lt;meta charset=&quot;utf-8&quot;&gt;Reports storage performance metrics for monitoring." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#FF99FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="4QwCh5fFJnxKNANVuwcL-44" source="4QwCh5fFJnxKNANVuwcL-49">
+          <mxGeometry x="0.3592" y="147" relative="1" as="geometry">
+            <mxPoint x="943.1789473684216" y="-661.7105263157894" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-49" value="" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=2.3333333333333712;fillColor=#FF99FF;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-44">
           <mxGeometry x="91.21000000000004" y="101.5" width="14" height="12" as="geometry" />
@@ -291,6 +297,11 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-103" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod;hachureGap=4;align=center;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=default;rounded=0;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-100">
           <mxGeometry x="50.500000000000114" y="46" width="20.83" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-801" value="&lt;meta charset=&quot;utf-8&quot;&gt;Schedules and orchestrates volume management components." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#0066CC;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="MIaoaSeqQotOdPiKlqNz-69" source="MIaoaSeqQotOdPiKlqNz-71" target="4QwCh5fFJnxKNANVuwcL-90">
+          <mxGeometry x="0.304" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-71" value="Kubernetes Control Plane" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#003366;" parent="MIaoaSeqQotOdPiKlqNz-69" vertex="1">
           <mxGeometry x="225" y="59" width="501.4" height="280" as="geometry">
             <mxRectangle x="930" y="380" width="140" height="30" as="alternateBounds" />
@@ -414,6 +425,9 @@
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-505" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Heading&lt;/h1&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-503">
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-802" value="&lt;meta charset=&quot;utf-8&quot;&gt;Resolves traffic routing rules for services." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="4QwCh5fFJnxKNANVuwcL-185" source="4QwCh5fFJnxKNANVuwcL-506" target="4QwCh5fFJnxKNANVuwcL-503">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-506" value="Load Balancer" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-185">
           <mxGeometry x="506" y="34" width="200" height="200" as="geometry">
@@ -767,6 +781,14 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-797" value="&lt;meta charset=&quot;utf-8&quot;&gt;Monitors external APIs and dependencies." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#C95304;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-529" target="4QwCh5fFJnxKNANVuwcL-777">
           <mxGeometry x="-0.1808" y="-30" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-799" value="&lt;meta charset=&quot;utf-8&quot;&gt;Mounts volumes to pods on local nodes." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-88" target="MIaoaSeqQotOdPiKlqNz-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-803" value="&lt;meta charset=&quot;utf-8&quot;&gt;Provides cluster-wide monitoring data visualizations.&quot;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=#002F5E;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MIaoaSeqQotOdPiKlqNz-71" target="4QwCh5fFJnxKNANVuwcL-532">
+          <mxGeometry x="-0.1889" y="337" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
