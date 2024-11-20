@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="ttyUJ2ldBYS0SNBuxpnt">
-    <mxGraphModel dx="1425" dy="1765" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="414" dy="1736" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -375,6 +375,12 @@
         </mxCell>
         <mxCell id="7zC7bRDxXSxVpP39lOD9-233" value="&lt;span style=&quot;font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Kubernetes Control Plane&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#FFFFFF;labelBackgroundColor=none;align=center;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="337.39" y="-265" width="253.29" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="7zC7bRDxXSxVpP39lOD9-235" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3399FF;rounded=0;" edge="1" parent="1" source="7zC7bRDxXSxVpP39lOD9-157" target="7zC7bRDxXSxVpP39lOD9-218">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7zC7bRDxXSxVpP39lOD9-236" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3399FF;dashed=1;" edge="1" parent="1" source="7zC7bRDxXSxVpP39lOD9-157" target="7zC7bRDxXSxVpP39lOD9-227">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
