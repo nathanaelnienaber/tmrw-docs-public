@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="2046" dy="3252" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1429" dy="2933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Components" style="" parent="0" />
@@ -743,6 +743,24 @@
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-793" value="&lt;meta charset=&quot;utf-8&quot;&gt;Provision and bind volumes to workloads." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#002F5E;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.966;exitY=0.524;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-171" target="MIaoaSeqQotOdPiKlqNz-77">
           <mxGeometry x="-0.0665" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-795" value="&lt;meta charset=&quot;utf-8&quot;&gt;Synchronizes volume metadata across the cluster." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#FF99FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-23" target="4QwCh5fFJnxKNANVuwcL-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1875" y="594" />
+              <mxPoint x="1275" y="594" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-796" value="&lt;meta charset=&quot;utf-8&quot;&gt;Coordinates data backup for pod workloads." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-539" target="4QwCh5fFJnxKNANVuwcL-122">
+          <mxGeometry x="0.022" y="-57" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2972" y="951" />
+              <mxPoint x="2972" y="628" />
+              <mxPoint x="2992" y="628" />
+            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
