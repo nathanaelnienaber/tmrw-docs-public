@@ -36,7 +36,7 @@
         <mxCell id="MIaoaSeqQotOdPiKlqNz-113" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Kubernetes Networking and Security Solution&lt;/span&gt;&lt;/h1&gt;&lt;p style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: 400; background-color: initial;&quot;&gt;Secure pod-level communication.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 8px; font-weight: 400;&quot;&gt;Load balancing and service discovery (Ingress/DNS).&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" parent="MIaoaSeqQotOdPiKlqNz-79" vertex="1">
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-179" value="Rancher" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-179" value="Rancher" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="406" y="294" width="2950" height="470" as="geometry">
             <mxRectangle x="359" y="280" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -322,7 +322,7 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-566" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF99FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-133" target="4QwCh5fFJnxKNANVuwcL-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-133" value="Persistant Storage" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;fillColor=none;dashed=1;" vertex="1" parent="1">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-133" value="Persistant Storage" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;fillColor=none;dashed=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1501" y="827" width="498" height="269" as="geometry" />
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-77" value="Longhorn" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#FF99FF;" parent="4QwCh5fFJnxKNANVuwcL-133" vertex="1">
@@ -339,7 +339,7 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-521" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Manage storage separately from the lifecycle of the pods, ensuring data persists even if a pod is deleted or recreated.&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;&quot;&gt;On-Premises Storage: NFS, Ceph, GlusterFS.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Distributed Storage Systems: Longhorn, Rook, etc.&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-133">
           <mxGeometry x="25" y="167" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-494" value="Orchestration and Managment" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;swimlaneLine=0;" vertex="1" parent="1">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-494" value="Orchestration and Managment" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#666666;swimlaneLine=0;dashed=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-201" y="184" width="855" height="698" as="geometry" />
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-22" value="GitLab" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#994C00;" parent="4QwCh5fFJnxKNANVuwcL-494" vertex="1">
@@ -458,7 +458,7 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-511" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Heading&lt;/h1&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-509">
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-517" value="Observability" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-517" value="Observability" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="3437" y="-1587" width="600" height="3032" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-529" value="Prometheus" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
@@ -494,7 +494,7 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-541" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Kubernetes Backup and Disaster Recovery Tool&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Enables backup and recovery of Kubernetes clusters, supporting disaster recovery, migrations, and data protection for persistent volumes.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-539">
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-536" value="Infrastructure&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-536" value="Infrastructure&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="676" y="-278" width="2717" height="1414" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-176" value="" style="group" vertex="1" connectable="0" parent="4QwCh5fFJnxKNANVuwcL-536">
