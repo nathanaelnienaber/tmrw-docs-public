@@ -433,7 +433,7 @@
           <mxGeometry x="3437" y="-1587" width="600" height="3032" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-529" value="Prometheus" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
-          <mxGeometry x="212" y="697" width="200" height="200" as="geometry">
+          <mxGeometry x="192" y="530" width="200" height="200" as="geometry">
             <mxRectangle x="2000" y="-400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -455,7 +455,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-539" value="Velero" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
-          <mxGeometry x="212" y="952" width="200" height="199" as="geometry">
+          <mxGeometry x="190" y="791" width="200" height="199" as="geometry">
             <mxRectangle x="2000" y="-400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
