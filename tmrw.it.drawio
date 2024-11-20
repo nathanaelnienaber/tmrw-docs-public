@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="1341" dy="2887" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2046" dy="3252" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Components" style="" parent="0" />
@@ -568,8 +568,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-551" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.72;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#003366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-171" target="4QwCh5fFJnxKNANVuwcL-22">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-551" value="&lt;meta charset=&quot;utf-8&quot;&gt;Configures cluster-wide network traffic rules." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.72;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#003366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-171" target="4QwCh5fFJnxKNANVuwcL-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1461" y="571" />
+              <mxPoint x="1461" y="550" />
+              <mxPoint x="1763" y="550" />
+              <mxPoint x="1763" y="523" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-556" value="&lt;meta charset=&quot;utf-8&quot;&gt;Resolves service names to cluster IPs." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-25" target="4QwCh5fFJnxKNANVuwcL-503">
           <mxGeometry x="0.1338" relative="1" as="geometry">
