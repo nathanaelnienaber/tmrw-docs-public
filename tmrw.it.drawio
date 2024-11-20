@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="6984" dy="5808" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2751" dy="3617" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Components" style="" parent="0" />
@@ -553,14 +553,15 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-551" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.72;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#003366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-171" target="4QwCh5fFJnxKNANVuwcL-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-556" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-25" target="4QwCh5fFJnxKNANVuwcL-503">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-556" value="&lt;meta charset=&quot;utf-8&quot;&gt;Resolves service names to cluster IPs." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-25" target="4QwCh5fFJnxKNANVuwcL-503">
+          <mxGeometry x="0.1338" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1855" y="590" />
               <mxPoint x="1855" y="40" />
               <mxPoint x="1872" y="40" />
               <mxPoint x="1872" y="2" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-564" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E5CCFF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MIaoaSeqQotOdPiKlqNz-64" target="MIaoaSeqQotOdPiKlqNz-69">
@@ -603,13 +604,10 @@
             <mxPoint x="2382" y="158.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-573" value="&lt;meta charset=&quot;utf-8&quot;&gt;Prometheus collects metrics from control plane components (e.g., API Server, Scheduler, etc.)" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF99FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MIaoaSeqQotOdPiKlqNz-77" target="4QwCh5fFJnxKNANVuwcL-23">
-          <mxGeometry x="-0.2861" y="-19" relative="1" as="geometry">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-574" value="Stores application data for persistent use." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF99FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-26" target="MIaoaSeqQotOdPiKlqNz-77">
+          <mxGeometry x="-0.34" y="5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-574" value="&lt;meta charset=&quot;utf-8&quot;&gt;tores volume metadata in etcd" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF99FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-26" target="MIaoaSeqQotOdPiKlqNz-77">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-575" value="Deploys and Configure" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#3399FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-181" target="MIaoaSeqQotOdPiKlqNz-79">
           <mxGeometry relative="1" as="geometry" />
@@ -617,16 +615,16 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-576" value="Deploys and Configure" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#3399FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-181" target="MIaoaSeqQotOdPiKlqNz-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-577" value="&lt;meta charset=&quot;utf-8&quot;&gt;Backs up and restores cluster state" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-539">
-          <mxGeometry x="0.5722" y="-106" relative="1" as="geometry">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-577" value="Backs up and restores cluster configuration" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-539" target="MIaoaSeqQotOdPiKlqNz-71">
+          <mxGeometry x="0.6886" y="-139" relative="1" as="geometry">
             <mxPoint x="2286" y="728" as="targetPoint" />
-            <mxPoint x="1" as="offset" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-552" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#FF6666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-19" target="MIaoaSeqQotOdPiKlqNz-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-579" value="&lt;meta charset=&quot;utf-8&quot;&gt;Prometheus scrapes metrics directly from pods" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#C95304;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-529" target="4QwCh5fFJnxKNANVuwcL-104">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-579" value="Scrapes metrics from running applications." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#C95304;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-529" target="4QwCh5fFJnxKNANVuwcL-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-580" value="&lt;meta charset=&quot;utf-8&quot;&gt;metrics such as storage capacity and performance" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#C95304;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-529" target="MIaoaSeqQotOdPiKlqNz-77">
@@ -641,9 +639,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-775" value="&lt;meta charset=&quot;utf-8&quot;&gt;Backs up and restores pod data" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-539" target="MIaoaSeqQotOdPiKlqNz-77">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-776" value="&lt;meta charset=&quot;utf-8&quot;&gt;Sends backups to external storage" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-541" target="4QwCh5fFJnxKNANVuwcL-777">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-777" value="External Services" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;" vertex="1" parent="1">
@@ -690,6 +685,16 @@
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-527" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Heading&lt;/h1&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-525">
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-788" value="&lt;meta charset=&quot;utf-8&quot;&gt;Manages and replicates volumes across nodes." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#FF99FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-23" target="MIaoaSeqQotOdPiKlqNz-77">
+          <mxGeometry x="-0.1166" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-790" value="&lt;meta charset=&quot;utf-8&quot;&gt;Sends backups to remote storage systems." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-539" target="4QwCh5fFJnxKNANVuwcL-777">
+          <mxGeometry x="-0.6623" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
