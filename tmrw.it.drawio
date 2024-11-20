@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="1896" dy="3175" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1341" dy="2887" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Components" style="" parent="0" />
@@ -556,8 +556,17 @@
             <mxPoint x="1942.3333333333335" y="76.33333333333348" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-550" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#003366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-171" target="4QwCh5fFJnxKNANVuwcL-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-550" value="&lt;meta charset=&quot;utf-8&quot;&gt;Schedules containers on the correct node." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#003366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-171" target="4QwCh5fFJnxKNANVuwcL-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1747" y="515" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1450" y="571" />
+              <mxPoint x="1450" y="519" />
+              <mxPoint x="1701" y="519" />
+              <mxPoint x="1701" y="533" />
+              <mxPoint x="1763" y="533" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-551" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.72;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#003366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-171" target="4QwCh5fFJnxKNANVuwcL-22">
           <mxGeometry relative="1" as="geometry" />
@@ -650,6 +659,21 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-775" value="&lt;meta charset=&quot;utf-8&quot;&gt;Backs up and restores pod data" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-539" target="MIaoaSeqQotOdPiKlqNz-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-794" value="&lt;meta charset=&quot;utf-8&quot;&gt;Distributes external traffic to internal services." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="4QwCh5fFJnxKNANVuwcL-506">
+          <mxGeometry x="-0.9205" relative="1" as="geometry">
+            <mxPoint x="2878.666666666666" y="207" as="targetPoint" />
+            <mxPoint x="2704" y="1204" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2704" y="1078" />
+              <mxPoint x="2210" y="1078" />
+              <mxPoint x="2210" y="607" />
+              <mxPoint x="2216" y="607" />
+              <mxPoint x="2216" y="68" />
+              <mxPoint x="2107" y="68" />
+            </Array>
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-777" value="External Services" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="679" y="1211" width="2707" height="427" as="geometry" />
         </mxCell>
@@ -710,7 +734,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-793" value="&lt;meta charset=&quot;utf-8&quot;&gt;Provision and bind volumes to workloads." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#002F5E;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MIaoaSeqQotOdPiKlqNz-71" target="MIaoaSeqQotOdPiKlqNz-77">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-793" value="&lt;meta charset=&quot;utf-8&quot;&gt;Provision and bind volumes to workloads." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#002F5E;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.966;exitY=0.524;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-171" target="MIaoaSeqQotOdPiKlqNz-77">
           <mxGeometry x="-0.0665" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
