@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="ttyUJ2ldBYS0SNBuxpnt">
-    <mxGraphModel dx="1493" dy="2195" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="3190" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -517,6 +517,27 @@
               <mxPoint x="116" y="219" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MwZSFE4iUIWe1wEpJBer-12" value="Compute Resources (VMs, Cloud Instance, etc)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="866" width="597" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="MwZSFE4iUIWe1wEpJBer-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="MwZSFE4iUIWe1wEpJBer-13" target="MwZSFE4iUIWe1wEpJBer-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MwZSFE4iUIWe1wEpJBer-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="MwZSFE4iUIWe1wEpJBer-13" target="MwZSFE4iUIWe1wEpJBer-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MwZSFE4iUIWe1wEpJBer-13" value="Networing (VPC, Subnets, Load Balancers)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1116" width="597" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="MwZSFE4iUIWe1wEpJBer-14" value="Storager (Persistand Volumes, IObject Storage)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1375" width="597" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="MwZSFE4iUIWe1wEpJBer-15" value="DNS &amp;amp; Firewalls" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1050.5" y="1194.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MwZSFE4iUIWe1wEpJBer-17" value="Load Balncers" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1048" y="1092" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
