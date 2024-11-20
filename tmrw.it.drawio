@@ -1,77 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="2757" dy="2779" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4515" dy="4530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="title" value="[TMRW.IT] Distributed Cloud Platform" style="text;html=1;fontSize=20;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="-318" y="-2078" width="400" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-20" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1980" y="-183" width="759" height="506" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-2050" y="210" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-25" value="" style="html=1;shape=mxgraph.basic.isocube;isoAngle=15;" parent="1" vertex="1">
-          <mxGeometry x="-2090" y="-120" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-27" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-1950" y="263" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-28" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-2160" y="40" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-29" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" parent="1" vertex="1">
-          <mxGeometry x="-2040" y="20" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-35" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;" parent="1" vertex="1">
-          <mxGeometry x="-1970" y="-200" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-37" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Virtual_Network.svg;" parent="1" vertex="1">
-          <mxGeometry x="-1980" y="-84" width="50" height="28.000000000000004" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-62" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-1587" y="26" width="102.28999999999996" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-58" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4D4D4D;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.laptop;" parent="MIaoaSeqQotOdPiKlqNz-62" vertex="1">
-          <mxGeometry width="82.29" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-59" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4D4D4D;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.laptop;" parent="MIaoaSeqQotOdPiKlqNz-62" vertex="1">
-          <mxGeometry x="10" y="10" width="82.29" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-60" value="cndt.io&lt;br&gt;software" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4D4D4D;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.laptop;" parent="MIaoaSeqQotOdPiKlqNz-62" vertex="1">
-          <mxGeometry x="20" y="20" width="82.29" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-63" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-1770" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-33" value="Server" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" parent="MIaoaSeqQotOdPiKlqNz-63" vertex="1">
-          <mxGeometry width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-34" value="cndt.io" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" parent="MIaoaSeqQotOdPiKlqNz-33" vertex="1">
-          <mxGeometry width="60" height="30" relative="1" as="geometry">
-            <mxPoint x="-5" y="10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-41" value="Server" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" parent="MIaoaSeqQotOdPiKlqNz-63" vertex="1">
-          <mxGeometry x="10" y="10" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-42" value="cndt.io" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" parent="MIaoaSeqQotOdPiKlqNz-41" vertex="1">
-          <mxGeometry width="60" height="30" relative="1" as="geometry">
-            <mxPoint x="-5" y="10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-43" value="Server" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" parent="MIaoaSeqQotOdPiKlqNz-63" vertex="1">
-          <mxGeometry x="20" y="20" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-44" value="cndt.io" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" parent="MIaoaSeqQotOdPiKlqNz-43" vertex="1">
-          <mxGeometry width="60" height="30" relative="1" as="geometry">
-            <mxPoint x="-5" y="10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MIaoaSeqQotOdPiKlqNz-105" value="Use this note to call out&#xa;or clarify parts of a diagram" style="strokeColor=none;shadow=0;gradientColor=none;fontSize=11;align=left;spacing=10;fontColor=#;9E9E9E;verticalAlign=top;spacingTop=100;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-990" y="-160" width="300" height="350" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-135" value="Platform" style="swimlane;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="674" y="-1031" width="2720" height="700" as="geometry" />
