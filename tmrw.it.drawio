@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="2932" dy="2911" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5887" dy="4440" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Components" style="" parent="0" />
@@ -371,7 +371,7 @@
           <mxGeometry x="25" y="167" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-494" value="Orchestration and Managment" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#000000;swimlaneLine=0;dashed=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-201" y="184" width="855" height="952" as="geometry" />
+          <mxGeometry x="-259" y="184" width="855" height="952" as="geometry" />
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-22" value="GitOps Deployment Tool" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#994C00;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-494" vertex="1">
           <mxGeometry x="50" y="245" width="200" height="200" as="geometry">
@@ -451,7 +451,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-517" value="Observability" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;rounded=1;fillColor=none;dashed=1;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="3437" y="-1216" width="600" height="2350" as="geometry" />
+          <mxGeometry x="3472" y="-1216" width="600" height="2350" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-529" value="Monitoring &amp;amp; Metrics Collection" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#C95304;fillColor=none;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
           <mxGeometry x="192" y="1050" width="200" height="200" as="geometry">
@@ -792,7 +792,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-860" value="Security and Identity and Access Managment (IAM)" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#000000;swimlaneLine=0;dashed=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-201" y="-540" width="855" height="698" as="geometry" />
+          <mxGeometry x="-259" y="-540" width="855" height="698" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-861" value="Policy Agent" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#707070;fillColor=none;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-860">
           <mxGeometry x="183" y="97" width="200" height="200" as="geometry">
