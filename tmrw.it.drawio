@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="2187" dy="3493" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1341" dy="2602" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Components" style="" parent="0" />
@@ -890,10 +890,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-913" value="&lt;meta charset=&quot;utf-8&quot;&gt;Detects runtime threats in application containers." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#13DCF6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-869" target="MIaoaSeqQotOdPiKlqNz-69">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-913" value="Detects runtime threats in application containers.&lt;div&gt;Watches for unusual activity on worker nodes&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#13DCF6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-869" target="MIaoaSeqQotOdPiKlqNz-69">
           <mxGeometry x="0.8637" y="-41" relative="1" as="geometry">
             <mxPoint x="1774" y="218" as="targetPoint" />
             <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-914" value="&lt;meta charset=&quot;utf-8&quot;&gt;Applies policies to workload scheduling and resources." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#707070;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-861" target="MIaoaSeqQotOdPiKlqNz-69">
+          <mxGeometry x="-0.2076" y="-83" relative="1" as="geometry">
+            <mxPoint x="1940" y="111" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
