@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="1831" dy="2341" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2932" dy="2911" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Components" style="" parent="0" />
@@ -783,7 +783,7 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-860" value="" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#666666;swimlaneLine=0;dashed=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-860" value="Security and Identity and Access Managment (IAM)" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#666666;swimlaneLine=0;dashed=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-201" y="-540" width="855" height="698" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-861" value="Policy Agent" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#707070;fillColor=none;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-860">
