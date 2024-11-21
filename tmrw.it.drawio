@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.8">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="2788" dy="3192" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6370" dy="5580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="MASTER" style="" parent="0" />
         <mxCell id="title" value="[TMRW.IT] Distributed Cloud Platform" style="text;html=1;fontSize=20;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="-178" y="-1314" width="400" height="30" as="geometry" />
+          <mxGeometry x="-264" y="-1314" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-135" value="Platform" style="swimlane;whiteSpace=wrap;container=0;dashed=1;swimlaneLine=0;fillColor=none;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="674" y="-860" width="2720" height="485" as="geometry" />
