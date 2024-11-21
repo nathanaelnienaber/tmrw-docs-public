@@ -879,6 +879,23 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-911" value="&lt;meta charset=&quot;utf-8&quot;&gt;Supplies sensitive data like keys and passwords." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#61BAFF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-883" target="4QwCh5fFJnxKNANVuwcL-100">
+          <mxGeometry x="-0.2298" y="-35" relative="1" as="geometry">
+            <mxPoint x="1780" y="205" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-912" value="&lt;meta charset=&quot;utf-8&quot;&gt;Monitors API activity for runtime anomalies." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#13DCF6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-869" target="MIaoaSeqQotOdPiKlqNz-71">
+          <mxGeometry x="-0.0787" y="-153" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-913" value="&lt;meta charset=&quot;utf-8&quot;&gt;Detects runtime threats in application containers." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#13DCF6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-869" target="MIaoaSeqQotOdPiKlqNz-69">
+          <mxGeometry x="0.8637" y="-41" relative="1" as="geometry">
+            <mxPoint x="1774" y="218" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
