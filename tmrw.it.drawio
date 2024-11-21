@@ -429,10 +429,10 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-517" value="Observability" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3437" y="-1587" width="600" height="2721" as="geometry" />
+          <mxGeometry x="3437" y="-1216" width="600" height="2350" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-529" value="Prometheus" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#C95304;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
-          <mxGeometry x="192" y="1233" width="200" height="200" as="geometry">
+          <mxGeometry x="192" y="1050" width="200" height="200" as="geometry">
             <mxRectangle x="2000" y="-400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -443,7 +443,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-532" value="Granfana" style="swimlane;whiteSpace=wrap;html=1;startSize=23;strokeColor=#C95304;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
-          <mxGeometry x="192" y="275" width="200" height="200" as="geometry">
+          <mxGeometry x="200" y="213" width="200" height="200" as="geometry">
             <mxRectangle x="2000" y="-400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -454,7 +454,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-539" value="Velero" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
-          <mxGeometry x="207" y="2303" width="200" height="199" as="geometry">
+          <mxGeometry x="204" y="1952" width="200" height="199" as="geometry">
             <mxRectangle x="2000" y="-400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
