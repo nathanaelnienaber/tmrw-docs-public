@@ -751,7 +751,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-777" value="External Services" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;fillColor=none;rounded=1;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="1187" y="1736" width="1695" height="427" as="geometry" />
+          <mxGeometry x="1187" y="1709" width="1695" height="427" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-778" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Decentralized Network&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;A distributed network of personally owned nodes running software, providing secure communication and decentralized services.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" parent="4QwCh5fFJnxKNANVuwcL-777" vertex="1">
           <mxGeometry x="41" y="278" width="180" height="80" as="geometry" />
@@ -971,7 +971,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqMAgJFm5aRpmYQMxSoD-1" value="&lt;meta charset=&quot;utf-8&quot;&gt;Service Mesh (Istio/Linkerd)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-1" value="&lt;meta charset=&quot;utf-8&quot;&gt;Service Mesh (Istio/Linkerd)" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1182.57" y="1210" width="1697" height="430.0028571428577" as="geometry" />
         </mxCell>
         <mxCell id="PqMAgJFm5aRpmYQMxSoD-3" value="&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Add a Redis Node&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Place a new block labeled &quot;Redis Cache&quot; between the API Gateway and Backend Services (e.g., Compute, Storage).&lt;/li&gt;&lt;li&gt;Use arrows to indicate the flow:&lt;ul&gt;&lt;li&gt;API Gateway ➝ Redis Cache ➝ Backend Services.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Annotate the Caching Functionality&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Add notes or labels explaining Redis usage:&lt;ul&gt;&lt;li&gt;&quot;Caches frequently accessed data.&quot;&lt;/li&gt;&lt;li&gt;&quot;Optimizes repeated queries to Backend Services.&quot;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Highlight Redis Integration&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Use a different color or dashed border for the Redis block to differentiate it as a performance optimization component.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PqMAgJFm5aRpmYQMxSoD-1">
