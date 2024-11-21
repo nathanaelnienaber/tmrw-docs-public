@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.8">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="2106" dy="2737" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3385" dy="3590" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="MASTER" style="" parent="0" />
@@ -805,9 +805,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-791" value="&lt;meta charset=&quot;utf-8&quot;&gt;Connects to external APIs or databases" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="4QwCh5fFJnxKNANVuwcL-26" target="4QwCh5fFJnxKNANVuwcL-777" edge="1">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-791" value="&lt;meta charset=&quot;utf-8&quot;&gt;Connects to external APIs or databases" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="4QwCh5fFJnxKNANVuwcL-26" target="4QwCh5fFJnxKNANVuwcL-777" edge="1">
           <mxGeometry x="0.7873" y="-16" relative="1" as="geometry">
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1832" y="1175" />
+              <mxPoint x="2035" y="1175" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-793" value="&lt;meta charset=&quot;utf-8&quot;&gt;Provision and bind volumes to workloads." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#002F5E;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.966;exitY=0.524;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4QwCh5fFJnxKNANVuwcL-171" target="MIaoaSeqQotOdPiKlqNz-77" edge="1">
@@ -968,7 +972,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PqMAgJFm5aRpmYQMxSoD-1" value="&lt;meta charset=&quot;utf-8&quot;&gt;Service Mesh (Istio/Linkerd)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1189" y="1272" width="1697" height="430.0028571428577" as="geometry" />
+          <mxGeometry x="1182.57" y="1210" width="1697" height="430.0028571428577" as="geometry" />
         </mxCell>
         <mxCell id="PqMAgJFm5aRpmYQMxSoD-3" value="&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Add a Redis Node&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Place a new block labeled &quot;Redis Cache&quot; between the API Gateway and Backend Services (e.g., Compute, Storage).&lt;/li&gt;&lt;li&gt;Use arrows to indicate the flow:&lt;ul&gt;&lt;li&gt;API Gateway ➝ Redis Cache ➝ Backend Services.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Annotate the Caching Functionality&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Add notes or labels explaining Redis usage:&lt;ul&gt;&lt;li&gt;&quot;Caches frequently accessed data.&quot;&lt;/li&gt;&lt;li&gt;&quot;Optimizes repeated queries to Backend Services.&quot;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Highlight Redis Integration&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Use a different color or dashed border for the Redis block to differentiate it as a performance optimization component.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PqMAgJFm5aRpmYQMxSoD-1">
           <mxGeometry x="1106.5042857142862" y="19.998571428571495" width="550" height="279" as="geometry" />
