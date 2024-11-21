@@ -215,7 +215,7 @@
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-71" value="Kubernetes Control Plane" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;swimlaneLine=0;rounded=1;dashed=1;" parent="MIaoaSeqQotOdPiKlqNz-69" vertex="1">
           <mxGeometry x="225" y="59" width="1614" height="280" as="geometry">
-            <mxRectangle x="930" y="380" width="140" height="30" as="alternateBounds" />
+            <mxRectangle x="225" y="59" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-566" value="&lt;meta charset=&quot;utf-8&quot;&gt;Deploys storage management on every node." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF99FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="4QwCh5fFJnxKNANVuwcL-133" target="4QwCh5fFJnxKNANVuwcL-49" edge="1">
@@ -241,7 +241,7 @@
           <mxGeometry x="25" y="167" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-494" value="Orchestration and Managment" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#000000;swimlaneLine=0;dashed=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-264" y="-25" width="863" height="1152" as="geometry" />
+          <mxGeometry x="-296" y="-25" width="900" height="1152" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1186" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Monitors repositories for changes to manifests.&quot;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#994C00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="4QwCh5fFJnxKNANVuwcL-494" source="MIaoaSeqQotOdPiKlqNz-22" target="4QwCh5fFJnxKNANVuwcL-1163" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -355,7 +355,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-517" value="Observability" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;rounded=1;fillColor=none;dashed=1;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="3472" y="-1216" width="939" height="2350" as="geometry" />
+          <mxGeometry x="3462" y="-1216" width="900" height="2350" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1178" value="&lt;meta charset=&quot;utf-8&quot;&gt;Sends alerts based on monitoring thresholds." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#C95304;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=0;" parent="4QwCh5fFJnxKNANVuwcL-517" source="4QwCh5fFJnxKNANVuwcL-529" target="4QwCh5fFJnxKNANVuwcL-1172" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -847,7 +847,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-860" value="Security and Identity and Access Managment (IAM)" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#000000;swimlaneLine=0;dashed=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-259" y="-1210" width="855" height="1100" as="geometry" />
+          <mxGeometry x="-291" y="-1210" width="900" height="1100" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-861" value="Policy Agent" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#707070;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-860" vertex="1">
           <mxGeometry x="331" y="70" width="200" height="200" as="geometry">
