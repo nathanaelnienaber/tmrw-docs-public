@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="1116" dy="1970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="8630" dy="5860" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Components" style="" parent="0" />
@@ -785,16 +785,6 @@
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-863" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DevOps Platform&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;A DevOps platform offering source control, CI/CD pipelines, issue tracking, and automation for software development workflows.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-861">
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-864" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#994C00;" edge="1" parent="4QwCh5fFJnxKNANVuwcL-860" source="4QwCh5fFJnxKNANVuwcL-861" target="4QwCh5fFJnxKNANVuwcL-865">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="269" y="345" />
-              <mxPoint x="269" y="330" />
-              <mxPoint x="306" y="330" />
-              <mxPoint x="306" y="345" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-865" value="Identity Provider" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#E5CCFF;fillColor=none;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-860">
           <mxGeometry x="330" y="245" width="200" height="200" as="geometry">
