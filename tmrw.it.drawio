@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="3692" dy="3304" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2751" dy="2817" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="MASTER" style="" parent="0" />
@@ -760,23 +760,7 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-775" value="&lt;meta charset=&quot;utf-8&quot;&gt;Backs up and restores pod data" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-539" target="MIaoaSeqQotOdPiKlqNz-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-794" value="&lt;meta charset=&quot;utf-8&quot;&gt;Distributes external traffic to internal services." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.524;exitY=0.012;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-777" target="4QwCh5fFJnxKNANVuwcL-506">
-          <mxGeometry x="0.6767" y="12" relative="1" as="geometry">
-            <mxPoint x="2878.666666666666" y="207" as="targetPoint" />
-            <mxPoint x="2836" y="1178" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="2069" y="1212" />
-              <mxPoint x="2069" y="1078" />
-              <mxPoint x="2210" y="1078" />
-              <mxPoint x="2210" y="607" />
-              <mxPoint x="2216" y="607" />
-              <mxPoint x="2216" y="68" />
-              <mxPoint x="2107" y="68" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-777" value="External Services" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;fillColor=none;rounded=1;" vertex="1" parent="1">
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-777" value="External Services" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;fillColor=none;rounded=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="1187" y="1207" width="1695" height="427" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-778" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Decentralized Network&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;A distributed network of personally owned nodes running software, providing secure communication and decentralized services.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-777">
@@ -981,6 +965,17 @@
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-561" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MIaoaSeqQotOdPiKlqNz-73" target="4QwCh5fFJnxKNANVuwcL-34">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-1188" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Distributes external traffic to internal services.&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-184" target="4QwCh5fFJnxKNANVuwcL-506">
+          <mxGeometry x="-0.8121" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2083" y="1169" />
+              <mxPoint x="2208" y="1169" />
+              <mxPoint x="2208" y="67" />
+              <mxPoint x="2107" y="67" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-915" value="No connections" style="locked=1;" visible="0" parent="0" />
         <mxCell id="4QwCh5fFJnxKNANVuwcL-916" value="[TMRW.IT] Distributed Cloud Platform" style="text;html=1;fontSize=20;fontStyle=1;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-915">
