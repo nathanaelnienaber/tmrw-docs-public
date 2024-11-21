@@ -792,7 +792,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-860" value="Security and Identity and Access Managment (IAM)" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#000000;swimlaneLine=0;dashed=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-259" y="-540" width="855" height="698" as="geometry" />
+          <mxGeometry x="-259" y="-600" width="855" height="698" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-861" value="Policy Agent" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#707070;fillColor=none;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-860">
           <mxGeometry x="183" y="97" width="200" height="200" as="geometry">
