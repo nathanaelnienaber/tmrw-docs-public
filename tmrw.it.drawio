@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.8">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="4211" dy="3874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5576" dy="4784" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="MASTER" style="" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-545" y="-1314" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-135" value="Platform" style="swimlane;whiteSpace=wrap;container=0;dashed=1;swimlaneLine=0;fillColor=none;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="674" y="-860" width="2720" height="485" as="geometry" />
+          <mxGeometry x="405" y="-860" width="2989" height="485" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-844" value="" style="group" parent="4QwCh5fFJnxKNANVuwcL-135" vertex="1" connectable="0">
           <mxGeometry x="729.5" y="106" width="1262" height="223" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry x="1113" y="77.64623955431755" width="149" height="141.6267409470752" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-136" value="User Interfaces" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;fillColor=none;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="671" y="-1220" width="2720.14" height="265" as="geometry" />
+          <mxGeometry x="405" y="-1220" width="2986.14" height="265" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-846" value="" style="group" parent="4QwCh5fFJnxKNANVuwcL-136" vertex="1" connectable="0">
           <mxGeometry x="722" y="95" width="1262" height="359" as="geometry" />
