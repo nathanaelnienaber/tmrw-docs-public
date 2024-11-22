@@ -287,7 +287,7 @@
           <mxGeometry x="1106" y="1207" width="1700" height="282" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-275" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;Heading&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" parent="4QwCh5fFJnxKNANVuwcL-185" vertex="1">
-          <mxGeometry x="25" y="154" width="180" height="80" as="geometry" />
+          <mxGeometry x="25" y="177" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-503" value="DNS" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#ff9500;" parent="4QwCh5fFJnxKNANVuwcL-185" vertex="1">
           <mxGeometry x="271.4000000000001" y="34" width="200" height="200" as="geometry">
@@ -439,7 +439,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-536" value="Infrastructure&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;rounded=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="676" y="-278" width="2717" height="1399" as="geometry" />
+          <mxGeometry x="402" y="-278" width="2991" height="1399" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-176" value="" style="group" parent="4QwCh5fFJnxKNANVuwcL-536" vertex="1" connectable="0">
           <mxGeometry x="471" y="563" width="215" height="184" as="geometry" />
@@ -569,7 +569,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-71" value="Kubernetes Control Plane" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;swimlaneLine=0;rounded=1;dashed=1;" parent="4QwCh5fFJnxKNANVuwcL-536" vertex="1">
-          <mxGeometry x="107" y="503" width="1754" height="459" as="geometry">
+          <mxGeometry x="320" y="503" width="1754" height="459" as="geometry">
             <mxRectangle x="225" y="59" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -855,13 +855,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-908" value="&lt;meta charset=&quot;utf-8&quot;&gt;Provides authentication for user and API access." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF477E;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="4QwCh5fFJnxKNANVuwcL-865" target="MIaoaSeqQotOdPiKlqNz-71" edge="1">
-          <mxGeometry x="-0.1128" y="-110" relative="1" as="geometry">
-            <mxPoint as="offset" />
+          <mxGeometry x="-0.1186" y="-63" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-909" value="&lt;meta charset=&quot;utf-8&quot;&gt;Enforces policies for resource access and configurations." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#707070;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="4QwCh5fFJnxKNANVuwcL-861" target="MIaoaSeqQotOdPiKlqNz-71" edge="1">
-          <mxGeometry x="-0.3537" y="-238" relative="1" as="geometry">
-            <mxPoint as="offset" />
+          <mxGeometry x="-0.2401" y="-217" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-910" value="&lt;meta charset=&quot;utf-8&quot;&gt;Stores secrets for secure application use." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#61BAFF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="4QwCh5fFJnxKNANVuwcL-883" target="MIaoaSeqQotOdPiKlqNz-71" edge="1">
@@ -875,20 +875,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-912" value="&lt;meta charset=&quot;utf-8&quot;&gt;Monitors API activity for runtime anomalies." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#13DCF6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="4QwCh5fFJnxKNANVuwcL-869" target="MIaoaSeqQotOdPiKlqNz-71" edge="1">
-          <mxGeometry x="-0.1979" y="-163" relative="1" as="geometry">
-            <mxPoint as="offset" />
+          <mxGeometry x="-0.1972" y="-100" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-913" value="Detects runtime threats in application containers.&lt;div&gt;Watches for unusual activity on worker nodes&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#13DCF6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4QwCh5fFJnxKNANVuwcL-869" target="MIaoaSeqQotOdPiKlqNz-69" edge="1">
-          <mxGeometry x="-0.2839" y="-91" relative="1" as="geometry">
+          <mxGeometry x="-0.2802" y="-51" relative="1" as="geometry">
             <mxPoint x="1774" y="218" as="targetPoint" />
-            <mxPoint as="offset" />
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-914" value="&lt;meta charset=&quot;utf-8&quot;&gt;Applies policies to workload scheduling and resources." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#707070;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4QwCh5fFJnxKNANVuwcL-861" target="MIaoaSeqQotOdPiKlqNz-69" edge="1">
-          <mxGeometry x="-0.4043" y="-138" relative="1" as="geometry">
+          <mxGeometry x="-0.3891" y="-106" relative="1" as="geometry">
             <mxPoint x="1940" y="111" as="targetPoint" />
-            <mxPoint as="offset" />
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-798" value="&lt;meta charset=&quot;utf-8&quot;&gt;Reports storage performance metrics for monitoring." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#FF99FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4QwCh5fFJnxKNANVuwcL-49" target="4QwCh5fFJnxKNANVuwcL-529" edge="1">
@@ -952,7 +952,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-117" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;Core Infrastructure Component&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;Handle core services, storage, and critical workloads, providing high-performance resources in centralized infrastructure environments.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" parent="1" vertex="1">
-          <mxGeometry x="1514" y="561" width="180" height="80" as="geometry" />
+          <mxGeometry x="1457" y="561" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PqMAgJFm5aRpmYQMxSoD-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-26" target="MIaoaSeqQotOdPiKlqNz-117">
           <mxGeometry x="-0.5485" y="106" relative="1" as="geometry">
