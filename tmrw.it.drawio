@@ -1080,7 +1080,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PqMAgJFm5aRpmYQMxSoD-59" value="Persists data for recovery or high availability.&lt;div&gt;Receives persistent backing for Redis data.&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF9999;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="PqMAgJFm5aRpmYQMxSoD-30" target="MIaoaSeqQotOdPiKlqNz-77" edge="1">
-          <mxGeometry x="0.0476" y="-144" relative="1" as="geometry">
+          <mxGeometry x="0.0368" y="-190" relative="1" as="geometry">
             <mxPoint x="1266" y="1781" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
