@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.8">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="6500" dy="6367" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2411" dy="3874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="MASTER" style="" parent="0" />
@@ -204,7 +204,26 @@
           <mxGeometry x="-577" y="-25" width="900" height="2562" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1186" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Monitors repositories for changes to manifests.&quot;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#994C00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="4QwCh5fFJnxKNANVuwcL-494" source="MIaoaSeqQotOdPiKlqNz-22" target="4QwCh5fFJnxKNANVuwcL-1163" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1365" />
+              <mxPoint x="327" y="1365" />
+              <mxPoint x="327" y="1636" />
+              <mxPoint x="330" y="1636" />
+              <mxPoint x="330" y="1895" />
+              <mxPoint x="450" y="1895" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-51" value="&lt;meta charset=&quot;utf-8&quot;&gt;Uses Helm charts for GitOps-driven Kubernetes deployments." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#994C00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="4QwCh5fFJnxKNANVuwcL-494" source="MIaoaSeqQotOdPiKlqNz-22" target="PqMAgJFm5aRpmYQMxSoD-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1063" />
+              <mxPoint x="309" y="1063" />
+              <mxPoint x="309" y="509" />
+              <mxPoint x="441" y="509" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-22" value="GitOps Deployment Tool" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#994C00;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-494" vertex="1">
           <mxGeometry x="350" y="1107" width="200" height="200" as="geometry">
@@ -232,10 +251,34 @@
           <mxGeometry x="771" y="532" width="42" height="25" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1185" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Hosts Terraform configurations for infrastructure provisioning.&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#009900;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="4QwCh5fFJnxKNANVuwcL-494" source="4QwCh5fFJnxKNANVuwcL-887" target="MIaoaSeqQotOdPiKlqNz-64" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1497" />
+              <mxPoint x="323" y="1497" />
+              <mxPoint x="323" y="925" />
+              <mxPoint x="441" y="925" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-1187" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Provides Kubernetes manifests for application deployments.&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#009900;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="4QwCh5fFJnxKNANVuwcL-494" source="4QwCh5fFJnxKNANVuwcL-887" target="MIaoaSeqQotOdPiKlqNz-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-1187" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Provides Kubernetes manifests for application deployments.&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#009900;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="4QwCh5fFJnxKNANVuwcL-494" source="4QwCh5fFJnxKNANVuwcL-887" target="MIaoaSeqQotOdPiKlqNz-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1483" />
+              <mxPoint x="411" y="1483" />
+              <mxPoint x="411" y="1368" />
+              <mxPoint x="450" y="1368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-49" value="&lt;meta charset=&quot;utf-8&quot;&gt;Stores and manages Helm charts in version-controlled repositories." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#009900;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="4QwCh5fFJnxKNANVuwcL-494" source="4QwCh5fFJnxKNANVuwcL-887" target="PqMAgJFm5aRpmYQMxSoD-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1510" />
+              <mxPoint x="263" y="1510" />
+              <mxPoint x="263" y="492" />
+              <mxPoint x="441" y="492" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-887" value="Source Code Management" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#009900;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-494" vertex="1">
           <mxGeometry x="350" y="1536" width="200" height="200" as="geometry">
@@ -249,7 +292,14 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1182" value="&lt;meta charset=&quot;utf-8&quot;&gt;Triggers infrastructure provisioning workflows asynchronously." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF7300;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.467;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=0;" parent="4QwCh5fFJnxKNANVuwcL-494" source="4QwCh5fFJnxKNANVuwcL-1163" target="MIaoaSeqQotOdPiKlqNz-64" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="443" y="1928" />
+              <mxPoint x="282" y="1928" />
+              <mxPoint x="282" y="907" />
+              <mxPoint x="441" y="907" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1163" value="RabbitMQ" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#ff7300;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-494" vertex="1">
           <mxGeometry x="350" y="1965" width="200" height="200" as="geometry">
@@ -293,9 +343,15 @@
         <mxCell id="PqMAgJFm5aRpmYQMxSoD-44" value="&lt;p style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Provides DNS, traffic routing, CDN, and DDoS protection for enhanced performance and security of applications.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-503">
           <mxGeometry x="9.999999999999886" y="110" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PqMAgJFm5aRpmYQMxSoD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;flowAnimation=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4QwCh5fFJnxKNANVuwcL-185" source="4QwCh5fFJnxKNANVuwcL-506" target="4QwCh5fFJnxKNANVuwcL-503">
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-18" value="&lt;meta charset=&quot;utf-8&quot;&gt;Routes external DNS traffic to Kubernetes Ingress Controller." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;flowAnimation=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#37B7E1;" edge="1" parent="4QwCh5fFJnxKNANVuwcL-185" source="4QwCh5fFJnxKNANVuwcL-506" target="4QwCh5fFJnxKNANVuwcL-503">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="477.7352941176473" y="134" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="928" y="169" />
+              <mxPoint x="928" y="111" />
+              <mxPoint x="537" y="111" />
+              <mxPoint x="537" y="169" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-506" value="Ingress Control" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FF7300;strokeColor=#37b7e1;" parent="4QwCh5fFJnxKNANVuwcL-185" vertex="1">
@@ -323,15 +379,25 @@
         <mxCell id="MIaoaSeqQotOdPiKlqNz-113" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Kubernetes Networking and Security Solution&lt;/span&gt;&lt;/h1&gt;&lt;p style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: 400; background-color: initial;&quot;&gt;Secure pod-level communication.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 8px; font-weight: 400;&quot;&gt;Load balancing and service discovery (Ingress/DNS).&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" parent="MIaoaSeqQotOdPiKlqNz-79" vertex="1">
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4QwCh5fFJnxKNANVuwcL-517" value="Observability" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;rounded=1;fillColor=none;dashed=1;glass=0;" parent="1" vertex="1">
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-55" value="&lt;meta charset=&quot;utf-8&quot;&gt;Directs traffic to the Kubernetes Ingress Controller.&quot;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF9500;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="4QwCh5fFJnxKNANVuwcL-185" source="4QwCh5fFJnxKNANVuwcL-503" target="4QwCh5fFJnxKNANVuwcL-506">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="169" />
+              <mxPoint x="535" y="256" />
+              <mxPoint x="930" y="256" />
+              <mxPoint x="930" y="169" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QwCh5fFJnxKNANVuwcL-517" value="&lt;meta charset=&quot;utf-8&quot;&gt;Sends telemetry data for visualization and dashboards." style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;rounded=1;fillColor=none;dashed=1;glass=0;" parent="1" vertex="1">
           <mxGeometry x="3490" y="-1216" width="900" height="3755" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1178" value="&lt;meta charset=&quot;utf-8&quot;&gt;Sends alerts based on monitoring thresholds." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#C95304;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=0;" parent="4QwCh5fFJnxKNANVuwcL-517" source="4QwCh5fFJnxKNANVuwcL-529" target="4QwCh5fFJnxKNANVuwcL-1172" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="450" y="1101" />
-              <mxPoint x="650" y="1101" />
-              <mxPoint x="650" y="1613" />
+              <mxPoint x="601" y="1101" />
+              <mxPoint x="601" y="1613" />
               <mxPoint x="450" y="1613" />
             </Array>
           </mxGeometry>
@@ -417,7 +483,31 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1177" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Delivers real-time alerts and fosters collaboration for incident management and resolution through integrated messaging.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" parent="4QwCh5fFJnxKNANVuwcL-1175" vertex="1">
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PqMAgJFm5aRpmYQMxSoD-26" value="Distributed Tracing" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FF7300;strokeColor=#007FFF;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-60" value="&lt;meta charset=&quot;utf-8&quot;&gt;Provides telemetry data for metrics storage and querying." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="4QwCh5fFJnxKNANVuwcL-517" source="PqMAgJFm5aRpmYQMxSoD-26" target="4QwCh5fFJnxKNANVuwcL-529">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="651" y="1135" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="2552" />
+              <mxPoint x="679" y="2552" />
+              <mxPoint x="679" y="1836" />
+              <mxPoint x="674" y="1836" />
+              <mxPoint x="674" y="1064" />
+              <mxPoint x="450" y="1064" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-61" value="&lt;meta charset=&quot;utf-8&quot;&gt;Sends telemetry data for visualization and dashboards." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="4QwCh5fFJnxKNANVuwcL-517" source="PqMAgJFm5aRpmYQMxSoD-26" target="4QwCh5fFJnxKNANVuwcL-532">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="626" y="1217" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="2590" />
+              <mxPoint x="758" y="2590" />
+              <mxPoint x="758" y="614" />
+              <mxPoint x="450" y="614" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-26" value="Distributed Tracing" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#007FFF;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-517">
           <mxGeometry x="350" y="2671" width="200" height="199" as="geometry">
             <mxRectangle x="2000" y="-400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -895,8 +985,13 @@
             <mxPoint x="483" y="1737" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqMAgJFm5aRpmYQMxSoD-5" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-184">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-5" value="&lt;meta charset=&quot;utf-8&quot;&gt;Host the Control Plane for cluster management." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;flowAnimation=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-184" target="MIaoaSeqQotOdPiKlqNz-71">
+          <mxGeometry x="-0.7011" y="-10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1199" y="1740" />
+              <mxPoint x="1614" y="1740" />
+            </Array>
+            <mxPoint as="offset" />
             <mxPoint x="2083" y="1789" as="sourcePoint" />
             <mxPoint x="748" y="1599" as="targetPoint" />
           </mxGeometry>
@@ -910,7 +1005,7 @@
         <mxCell id="PqMAgJFm5aRpmYQMxSoD-11" value="&lt;meta charset=&quot;utf-8&quot;&gt;Service Mesh (Istio/Linkerd)" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2356" y="1573" width="1052" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="PqMAgJFm5aRpmYQMxSoD-30" value="&lt;meta charset=&quot;utf-8&quot;&gt;Caching and Messaging" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FF7300;strokeColor=#FF9999;" vertex="1" parent="PqMAgJFm5aRpmYQMxSoD-11">
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-30" value="&lt;meta charset=&quot;utf-8&quot;&gt;Caching and Messaging" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF9999;" vertex="1" parent="PqMAgJFm5aRpmYQMxSoD-11">
           <mxGeometry x="740" y="115.5" width="200" height="199" as="geometry">
             <mxRectangle x="2000" y="-400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -921,7 +1016,7 @@
         <mxCell id="PqMAgJFm5aRpmYQMxSoD-32" value="&lt;p style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Provides an in-memory data store for caching, session management, and lightweight messaging, improving application performance and scalability.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="PqMAgJFm5aRpmYQMxSoD-30">
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PqMAgJFm5aRpmYQMxSoD-35" value="Service Coms &amp;amp; Security" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FF7300;strokeColor=#66B2FF;" vertex="1" parent="PqMAgJFm5aRpmYQMxSoD-11">
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-35" value="Service Coms &amp;amp; Security" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#66B2FF;" vertex="1" parent="PqMAgJFm5aRpmYQMxSoD-11">
           <mxGeometry x="519" y="115.5" width="200" height="199" as="geometry">
             <mxRectangle x="2000" y="-400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -937,8 +1032,8 @@
             <mxPoint x="1942.3333333333335" y="76.33333333333348" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqMAgJFm5aRpmYQMxSoD-19" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Resolves service names to cluster IPs.&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="MIaoaSeqQotOdPiKlqNz-117" target="4QwCh5fFJnxKNANVuwcL-503">
-          <mxGeometry x="-0.5485" y="106" relative="1" as="geometry">
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-19" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Resolves service names to cluster IPs.&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;flowAnimation=1;" edge="1" parent="1" source="MIaoaSeqQotOdPiKlqNz-117" target="4QwCh5fFJnxKNANVuwcL-503">
+          <mxGeometry x="-0.5151" y="223" relative="1" as="geometry">
             <mxPoint x="1452" y="1232" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -973,6 +1068,67 @@
         <mxCell id="4QwCh5fFJnxKNANVuwcL-567" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#FF99FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4QwCh5fFJnxKNANVuwcL-111" target="4QwCh5fFJnxKNANVuwcL-133" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2520.75" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-47" value="&lt;meta charset=&quot;utf-8&quot;&gt;Deploys applications using reusable charts and templates." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="PqMAgJFm5aRpmYQMxSoD-39" target="4QwCh5fFJnxKNANVuwcL-157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-52" value="&lt;meta charset=&quot;utf-8&quot;&gt;Balances and routes incoming requests to services." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-506" target="4QwCh5fFJnxKNANVuwcL-26">
+          <mxGeometry x="-0.5782" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-53" value="&lt;meta charset=&quot;utf-8&quot;&gt;Routes caching-related requests to the Redis data store." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#37B7E1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-506" target="PqMAgJFm5aRpmYQMxSoD-30">
+          <mxGeometry x="0.026" y="-45" relative="1" as="geometry">
+            <mxPoint x="2435.909090909091" y="1346.636363636363" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-54" value="Handles service mesh-secured communication for routed traffic.&lt;div&gt;Receives caches API responses for faster processing.&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66B2FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="PqMAgJFm5aRpmYQMxSoD-35" target="4QwCh5fFJnxKNANVuwcL-506">
+          <mxGeometry x="0.2088" y="-72" relative="1" as="geometry">
+            <mxPoint x="2113.181818181818" y="1272.090909090909" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-56" value="&lt;meta charset=&quot;utf-8&quot;&gt;Provides service metrics for observability and analysis." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66B2FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PqMAgJFm5aRpmYQMxSoD-35" target="4QwCh5fFJnxKNANVuwcL-1172">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3572.5" y="777.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-58" value="Sends telemetry data for tracing and observability.&lt;div&gt;Receives Provides telemetry data for tracing service-to-service communication.&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#66B2FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="PqMAgJFm5aRpmYQMxSoD-35" target="PqMAgJFm5aRpmYQMxSoD-26">
+          <mxGeometry x="0.019" y="-19" relative="1" as="geometry">
+            <mxPoint x="3100" y="1455" as="sourcePoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-59" value="Persists data for recovery or high availability.&lt;div&gt;Receives persistent backing for Redis data.&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF9999;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PqMAgJFm5aRpmYQMxSoD-30" target="MIaoaSeqQotOdPiKlqNz-77">
+          <mxGeometry x="0.0476" y="-144" relative="1" as="geometry">
+            <mxPoint x="1266" y="1781" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-62" value="Provide compute and storage for Kubernetes workloads.&lt;div&gt;Nodes run workloads and services provisioned in Kubernetes clusters.&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="4QwCh5fFJnxKNANVuwcL-184" target="4QwCh5fFJnxKNANVuwcL-86">
+          <mxGeometry x="-0.3408" y="9" relative="1" as="geometry">
+            <mxPoint x="2058.1111111111113" y="849.8888888888887" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1199" y="1858" />
+              <mxPoint x="2032" y="1858" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-63" value="&lt;meta charset=&quot;utf-8&quot;&gt;Provides infrastructure for backing storage volumes.&quot;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF99FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.485;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="MIaoaSeqQotOdPiKlqNz-77" target="4QwCh5fFJnxKNANVuwcL-184">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="927.1764705882351" y="1676.3529411764703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqMAgJFm5aRpmYQMxSoD-64" value="&lt;meta charset=&quot;utf-8&quot;&gt;Redis instances are hosted and run on servers." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF9999;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PqMAgJFm5aRpmYQMxSoD-30" target="4QwCh5fFJnxKNANVuwcL-184">
+          <mxGeometry x="0.0061" y="-74" relative="1" as="geometry">
+            <mxPoint x="2730.7058823529414" y="2716.3529411764707" as="targetPoint" />
+            <mxPoint x="3228" y="1933" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
