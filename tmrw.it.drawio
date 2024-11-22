@@ -263,13 +263,13 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-185" value="Networking" style="swimlane;whiteSpace=wrap;html=1;glass=0;swimlaneLine=0;dashed=1;fillColor=none;rounded=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="406" y="1207" width="2992" height="282" as="geometry" />
+          <mxGeometry x="406" y="1207" width="2992" height="317" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-275" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;Heading&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" parent="4QwCh5fFJnxKNANVuwcL-185" vertex="1">
           <mxGeometry x="25" y="177" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-503" value="DNS" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#ff9500;" parent="4QwCh5fFJnxKNANVuwcL-185" vertex="1">
-          <mxGeometry x="271.4000000000001" y="34" width="200" height="200" as="geometry">
+          <mxGeometry x="271.4000000000001" y="69" width="200" height="200" as="geometry">
             <mxRectangle x="790" y="90" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -280,7 +280,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PqMAgJFm5aRpmYQMxSoD-6" value="API Gateway" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#37b7e1;" vertex="1" parent="4QwCh5fFJnxKNANVuwcL-185">
-          <mxGeometry x="628" y="38" width="200" height="200" as="geometry">
+          <mxGeometry x="628" y="73" width="200" height="200" as="geometry">
             <mxRectangle x="790" y="90" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -302,7 +302,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-506" value="Load Balancer" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#37b7e1;" parent="4QwCh5fFJnxKNANVuwcL-185" vertex="1">
-          <mxGeometry x="991" y="34" width="200" height="200" as="geometry">
+          <mxGeometry x="991" y="69" width="200" height="200" as="geometry">
             <mxRectangle x="790" y="90" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -313,7 +313,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-79" value="Calico" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-185" vertex="1">
-          <mxGeometry x="1347" y="34" width="200" height="200" as="geometry">
+          <mxGeometry x="1347" y="69" width="200" height="200" as="geometry">
             <mxRectangle x="790" y="90" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -712,7 +712,7 @@
           <mxGeometry x="20.5" y="325" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-184" value="Servers" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;swimlaneLine=0;dashed=1;rounded=1;" parent="4QwCh5fFJnxKNANVuwcL-777" vertex="1">
-          <mxGeometry x="263" y="80" width="1265" height="272" as="geometry" />
+          <mxGeometry x="263" y="80" width="1035" height="302" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-492" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Decentralized Network&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;A distributed network of personally owned nodes running software, providing secure communication and decentralized services.&quot;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;fontColor=#FF3333;" parent="4QwCh5fFJnxKNANVuwcL-184" vertex="1">
           <mxGeometry x="20.5" y="169" width="180" height="80" as="geometry" />
@@ -883,7 +883,7 @@
           <mxGeometry x="-0.7886" y="15" relative="1" as="geometry">
             <Array as="points" />
             <mxPoint as="offset" />
-            <mxPoint x="753" y="1439" as="sourcePoint" />
+            <mxPoint x="483" y="1737" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PqMAgJFm5aRpmYQMxSoD-1" value="OpenTelemetry" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;fillColor=none;" vertex="1" parent="1">
