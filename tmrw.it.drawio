@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.8">
   <diagram name="Page-1" id="wVMwYLyxr4PYHoP_r0zS">
-    <mxGraphModel dx="5576" dy="4784" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6770" dy="5580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="MASTER" style="" parent="0" />
@@ -201,7 +201,7 @@
           <mxGeometry x="37" y="480" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-494" value="Orchestration and Managment" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#000000;swimlaneLine=0;dashed=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-577" y="-25" width="900" height="1152" as="geometry" />
+          <mxGeometry x="-577" y="-25" width="900" height="2562" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1186" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Monitors repositories for changes to manifests.&quot;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#994C00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="4QwCh5fFJnxKNANVuwcL-494" source="MIaoaSeqQotOdPiKlqNz-22" target="4QwCh5fFJnxKNANVuwcL-1163" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -284,7 +284,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-185" value="Networking" style="swimlane;whiteSpace=wrap;html=1;glass=0;swimlaneLine=0;dashed=1;fillColor=none;rounded=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1106" y="1207" width="1700" height="282" as="geometry" />
+          <mxGeometry x="406" y="1207" width="2992" height="282" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-275" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;Heading&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" parent="4QwCh5fFJnxKNANVuwcL-185" vertex="1">
           <mxGeometry x="25" y="177" width="180" height="80" as="geometry" />
@@ -345,15 +345,15 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-517" value="Observability" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;rounded=1;fillColor=none;dashed=1;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="3462" y="-1216" width="900" height="2350" as="geometry" />
+          <mxGeometry x="3462" y="-1216" width="900" height="3755" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1178" value="&lt;meta charset=&quot;utf-8&quot;&gt;Sends alerts based on monitoring thresholds." style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#C95304;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=0;" parent="4QwCh5fFJnxKNANVuwcL-517" source="4QwCh5fFJnxKNANVuwcL-529" target="4QwCh5fFJnxKNANVuwcL-1172" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="475" y="741" />
-              <mxPoint x="641" y="741" />
-              <mxPoint x="641" y="1109" />
-              <mxPoint x="475" y="1109" />
+              <mxPoint x="450" y="1287" />
+              <mxPoint x="652" y="1287" />
+              <mxPoint x="652" y="1794" />
+              <mxPoint x="450" y="1794" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -361,7 +361,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-529" value="Monitoring &amp;amp; Metrics Collection" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#C95304;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-517" vertex="1">
-          <mxGeometry x="375" y="462" width="200" height="200" as="geometry">
+          <mxGeometry x="350" y="895" width="200" height="200" as="geometry">
             <mxRectangle x="2000" y="-400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -372,7 +372,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-532" value="Observability &amp;amp; Visualization" style="swimlane;whiteSpace=wrap;html=1;startSize=23;strokeColor=#C95304;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-517" vertex="1">
-          <mxGeometry x="375" y="85" width="200" height="200" as="geometry">
+          <mxGeometry x="350" y="334" width="200" height="200" as="geometry">
             <mxRectangle x="2000" y="-400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -386,7 +386,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-539" value="Backup and Recovery" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-517" vertex="1">
-          <mxGeometry x="375" y="1969" width="200" height="199" as="geometry">
+          <mxGeometry x="350" y="3138" width="200" height="199" as="geometry">
             <mxRectangle x="2000" y="-400" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -403,7 +403,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1168" value="Thanos" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#E5CCFF;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-517" vertex="1">
-          <mxGeometry x="375" y="838" width="200" height="200" as="geometry">
+          <mxGeometry x="350" y="1455" width="200" height="200" as="geometry">
             <mxRectangle x="790" y="90" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -417,7 +417,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1172" value="Alert Manager" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#003366;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-517" vertex="1">
-          <mxGeometry x="375" y="1215" width="200" height="200" as="geometry">
+          <mxGeometry x="350" y="2016" width="200" height="200" as="geometry">
             <mxRectangle x="790" y="90" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -428,7 +428,7 @@
           <mxGeometry x="10" y="110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-1175" value="Slack" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#E5CCFF;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-517" vertex="1">
-          <mxGeometry x="375" y="1592" width="200" height="200" as="geometry">
+          <mxGeometry x="350" y="2577" width="200" height="200" as="geometry">
             <mxRectangle x="790" y="90" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -506,7 +506,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-133" value="Persistant Storage" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;fillColor=none;dashed=1;rounded=1;" parent="4QwCh5fFJnxKNANVuwcL-536" vertex="1">
-          <mxGeometry x="430" y="1083" width="498" height="269" as="geometry" />
+          <mxGeometry x="78" y="1083" width="498" height="269" as="geometry" />
         </mxCell>
         <mxCell id="MIaoaSeqQotOdPiKlqNz-77" value="Longhorn" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#FF99FF;fillColor=none;" parent="4QwCh5fFJnxKNANVuwcL-133" vertex="1">
           <mxGeometry x="268.30999999999995" y="47" width="200" height="200" as="geometry">
@@ -727,7 +727,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-777" value="External Services" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=0;dashed=1;fillColor=none;rounded=1;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="1108.5" y="2095" width="1695" height="427" as="geometry" />
+          <mxGeometry x="421" y="2095" width="2987" height="427" as="geometry" />
         </mxCell>
         <mxCell id="4QwCh5fFJnxKNANVuwcL-778" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Decentralized Network&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;A distributed network of personally owned nodes running software, providing secure communication and decentralized services.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;fontColor=#FF3333;" parent="4QwCh5fFJnxKNANVuwcL-777" vertex="1">
           <mxGeometry x="20.5" y="325" width="180" height="80" as="geometry" />
