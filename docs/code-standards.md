@@ -143,17 +143,3 @@ Add language-specific guidelines based on your stack. For example:
 2. Use profilers to identify performance bottlenecks.
 3. Avoid premature optimization; focus on clarity and correctness.
 
----
-
-### **How to Add These to Documentation**
-1. **Create a `docs/code_standards.md`**:
-   Include a detailed description of the above best practices.
-2. **Add a Summary in `CONTRIBUTING.md`**:
-   Provide an overview and link to `code_standards.md` for details.
-
----
-
-Let me know if you'd like help drafting a `code_standards.md` file or automating these best practices!  
-**Suggestions**:
-**a.** Should I help you integrate these practices into GitHub workflows?  
-**b.** Would you like example content for a specific language or tool?  
