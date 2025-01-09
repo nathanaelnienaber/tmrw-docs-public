@@ -98,3 +98,7 @@ If you have any questions or concerns about this Privacy Policy, please contact 
 **TMRW LLC**  
 **Email:** help@tmrw.it  
 **Address:** 12032 SE 20th St., Bellevue, WA 98005  
+
+
+[https://github.com/nathanaelnienaber/tmrw.it/blob/main/PrivacyPolicy.md]  
+[https://github.com/nathanaelnienaber/tmrw.it/blob/main/TermsOfAgreement]
