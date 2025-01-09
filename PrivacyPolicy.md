@@ -101,4 +101,4 @@ If you have any questions or concerns about this Privacy Policy, please contact 
 
 
 [https://github.com/nathanaelnienaber/tmrw.it/blob/main/PrivacyPolicy.md]  
-[https://github.com/nathanaelnienaber/tmrw.it/blob/main/TermsOfAgreement]
+[https://github.com/nathanaelnienaber/tmrw.it/blob/main/TermsOfAgreement.md]
