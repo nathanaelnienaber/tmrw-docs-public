@@ -113,4 +113,4 @@ If you are a tenant of **cloud.tmrw.it**, the following terms apply:
 These Terms, along with our [Privacy Policy](https://github.com/nathanaelnienaber/tmrw.it/blob/main/PrivacyPolicy.md), constitute the entire agreement between you and TMRW LLC. They supersede any prior agreements or understandings related to your use of our services.  
 
 [https://github.com/nathanaelnienaber/tmrw.it/blob/main/PrivacyPolicy.md]  
-[https://github.com/nathanaelnienaber/tmrw.it/blob/main/TermsOfAgreement]
+[https://github.com/nathanaelnienaber/tmrw.it/blob/main/TermsOfAgreement.md]
